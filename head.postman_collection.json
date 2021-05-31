@@ -1,0 +1,523 @@
+{
+	"id": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+	"name": "head",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Tencent",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"order": [
+				"a53ffe5b-4387-5351-7d69-38e1dc90ec2e"
+			],
+			"owner": "1054562",
+			"folders_order": [],
+			"id": "45043fa7-97b2-c734-282a-e949aa8e0f5e"
+		},
+		{
+			"name": "cli相关",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"order": [
+				"f07d2747-ee32-1820-44b3-1e5aa339f32c",
+				"201888cf-d111-12dc-4f1f-b1a0db2813cf",
+				"f7abb1b2-bc6c-e0bd-96da-b62fd6d17f12",
+				"eb83b049-87bc-a74b-ef7c-44d3a1dffb19"
+			],
+			"owner": "1054562",
+			"folders_order": [],
+			"id": "dd5f8a45-8714-6e48-2cf4-998f53dfa808"
+		},
+		{
+			"name": "linyu短信接口",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"order": [
+				"0622efa0-8f21-2044-a3e0-e54f35a77a07",
+				"b26a3327-1598-592a-61a1-3dc7a4156723"
+			],
+			"owner": "1054562",
+			"folders_order": [],
+			"id": "3075437d-79a5-ba9c-9535-8c62f3b3bffb"
+		},
+		{
+			"name": "头像模块",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"order": [
+				"6fcbf1c4-0bb2-d17c-b7bf-a32d12616584",
+				"7efc1168-ca2b-6e46-c044-ad46a54e1321",
+				"50ce908c-0f27-f5ca-4992-5e33cc766978",
+				"0b43c40e-6c2f-39ee-2e00-fe52928e0ca2"
+			],
+			"owner": "1054562",
+			"folders_order": [],
+			"id": "1f8e480e-3f09-39fd-5867-57b6b86e19ec"
+		},
+		{
+			"name": "微信",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"order": [
+				"b2e09b9a-b423-5f29-821b-989f2e40e8ee",
+				"d7c76200-7bf5-bd68-6bd1-ac20695cd497"
+			],
+			"owner": "1054562",
+			"folders_order": [],
+			"id": "899922be-b710-86ed-d638-2a3184dbe411"
+		}
+	],
+	"folders_order": [
+		"dd5f8a45-8714-6e48-2cf4-998f53dfa808",
+		"3075437d-79a5-ba9c-9535-8c62f3b3bffb",
+		"899922be-b710-86ed-d638-2a3184dbe411",
+		"1f8e480e-3f09-39fd-5867-57b6b86e19ec",
+		"45043fa7-97b2-c734-282a-e949aa8e0f5e"
+	],
+	"timestamp": 1576218173553,
+	"owner": "1054562",
+	"public": false,
+	"requests": [
+		{
+			"id": "0622efa0-8f21-2044-a3e0-e54f35a77a07",
+			"headers": "",
+			"headerData": [],
+			"url": "aproject.lc/v6/ApiSms-getSms.htm",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": null,
+			"dataMode": "params",
+			"name": "获取短信接口余量信息",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1576599945405,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "0622efa0-8f21-2044-a3e0-e54f35a77a07",
+			"folder": "3075437d-79a5-ba9c-9535-8c62f3b3bffb"
+		},
+		{
+			"id": "0b43c40e-6c2f-39ee-2e00-fe52928e0ca2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://aproject.lc/v6/ApiCustomer-headImage.htm?openid=123&eCode=aleinqi",
+			"queryParams": [
+				{
+					"key": "openid",
+					"value": "123",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "eCode",
+					"value": "aleinqi",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": [],
+			"dataMode": "raw",
+			"name": "上传头像接口",
+			"description": "该接口在保存头像时使用",
+			"descriptionFormat": "html",
+			"time": 1576997621714,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1f8e480e-3f09-39fd-5867-57b6b86e19ec",
+			"rawModeData": "{\"path\":\"www.wsshanghai.com\"}"
+		},
+		{
+			"id": "201888cf-d111-12dc-4f1f-b1a0db2813cf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "aproject.lc/v5/Sign-add.htm",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": [],
+			"dataMode": "raw",
+			"name": "添加签到的名字",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1576690664813,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "201888cf-d111-12dc-4f1f-b1a0db2813cf",
+			"folder": "dd5f8a45-8714-6e48-2cf4-998f53dfa808",
+			"rawModeData": "{\"name\":\"space\",\"enterprise_id\":\"3\"}"
+		},
+		{
+			"id": "50ce908c-0f27-f5ca-4992-5e33cc766978",
+			"headers": "",
+			"headerData": [],
+			"url": "http://aproject.lc/v6/ApiBase-slideShow.htm?id=1",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": null,
+			"dataMode": "params",
+			"name": "记录广告位点击",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1576995992422,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1f8e480e-3f09-39fd-5867-57b6b86e19ec"
+		},
+		{
+			"id": "6fcbf1c4-0bb2-d17c-b7bf-a32d12616584",
+			"headers": "",
+			"headerData": [],
+			"url": "http://aproject.lc/v6/ApiMaterial-getMaterialList.htm?st=logo&eCode=aleinqi",
+			"queryParams": [
+				{
+					"key": "st",
+					"value": "logo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "eCode",
+					"value": "aleinqi",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": null,
+			"dataMode": "params",
+			"name": "获取头像所需素材接口",
+			"description": "st:logo img\neCode:aleinqi(企业code 可在db中查阅)",
+			"descriptionFormat": "html",
+			"time": 1576932776227,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1f8e480e-3f09-39fd-5867-57b6b86e19ec"
+		},
+		{
+			"id": "7efc1168-ca2b-6e46-c044-ad46a54e1321",
+			"headers": "",
+			"headerData": [],
+			"url": "http://aproject.lc/v6/ApiBase-slideShow.htm?eCode=aleinqi",
+			"queryParams": [
+				{
+					"key": "eCode",
+					"value": "aleinqi",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": null,
+			"dataMode": "params",
+			"name": "广告位列表",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1576995550993,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1f8e480e-3f09-39fd-5867-57b6b86e19ec"
+		},
+		{
+			"id": "a53ffe5b-4387-5351-7d69-38e1dc90ec2e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://aproject.lc/v6/ApiBase-getCos.htm",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": null,
+			"dataMode": "params",
+			"name": "获取腾讯云cos临时密钥",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1576944765756,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "45043fa7-97b2-c734-282a-e949aa8e0f5e"
+		},
+		{
+			"id": "b26a3327-1598-592a-61a1-3dc7a4156723",
+			"headers": "",
+			"headerData": [],
+			"url": "aproject.lc/v6/ApiSms-sendSms.htm?phone=13564138770",
+			"folder": "3075437d-79a5-ba9c-9535-8c62f3b3bffb",
+			"queryParams": [
+				{
+					"key": "phone",
+					"value": "13564138770",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1576630605030,
+			"name": "发送短信",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"responses": []
+		},
+		{
+			"id": "b2e09b9a-b423-5f29-821b-989f2e40e8ee",
+			"headers": "",
+			"headerData": [],
+			"url": "http://aproject.lc/v6/ApiWeChat-getWeChatOpenId.htm?code=1",
+			"folder": "899922be-b710-86ed-d638-2a3184dbe411",
+			"queryParams": [
+				{
+					"key": "code",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1576662144340,
+			"name": "静默授权后获取用户信息",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "b2e09b9a-b423-5f29-821b-989f2e40e8ee"
+		},
+		{
+			"id": "d7c76200-7bf5-bd68-6bd1-ac20695cd497",
+			"headers": "",
+			"headerData": [],
+			"url": "http://aproject.lc/v6/ApiWeChat-getWeChatInfo.htm?code=1",
+			"queryParams": [
+				{
+					"key": "code",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": null,
+			"dataMode": "params",
+			"name": "用户授权后获取用户信息",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1576929318293,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "899922be-b710-86ed-d638-2a3184dbe411"
+		},
+		{
+			"id": "eb83b049-87bc-a74b-ef7c-44d3a1dffb19",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "aproject.lc/v5/main-socketStop.htm?code=aleinqi",
+			"folder": "dd5f8a45-8714-6e48-2cf4-998f53dfa808",
+			"queryParams": [
+				{
+					"key": "code",
+					"value": "aleinqi",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1576733056515,
+			"name": "关闭cli",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"responses": [],
+			"rawModeData": "{\"name\":\"space\",\"value\":\"space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. \",\"city\":\"shanghai\",\"enterprise_id\":\"3\"}"
+		},
+		{
+			"id": "f07d2747-ee32-1820-44b3-1e5aa339f32c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "aproject.lc/v5/SiteInfomation-add.htm",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"data": [],
+			"dataMode": "raw",
+			"name": "添加祝福语",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1576239597872,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "f07d2747-ee32-1820-44b3-1e5aa339f32c",
+			"folder": "dd5f8a45-8714-6e48-2cf4-998f53dfa808",
+			"rawModeData": "{\"name\":\"space\",\"value\":\"space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. \",\"city\":\"shanghai\",\"enterprise_id\":\"3\"}"
+		},
+		{
+			"id": "f7abb1b2-bc6c-e0bd-96da-b62fd6d17f12",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "aproject.lc/v5/main-socketStart.htm?code=aleinqi",
+			"folder": "dd5f8a45-8714-6e48-2cf4-998f53dfa808",
+			"queryParams": [
+				{
+					"key": "code",
+					"value": "aleinqi",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1576733042250,
+			"name": "开启cli",
+			"description": "",
+			"collectionId": "4dabb84a-4646-da23-5c1f-f35764b1ac12",
+			"responses": [],
+			"rawModeData": "{\"name\":\"space\",\"value\":\"space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. space love hegii. \",\"city\":\"shanghai\",\"enterprise_id\":\"3\"}"
+		}
+	]
+}
